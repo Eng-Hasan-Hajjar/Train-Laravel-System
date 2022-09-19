@@ -1,0 +1,180 @@
+/*=================== Color CSS ===================*/
+
+header.pixinav.dark .nav-wrapper>ul>li.active>a,
+header.pixinav.dark .nav-wrapper>ul>li.active>a>i,
+.nav-wrapper>ul>li.active>a,
+.nav-wrapper>ul>li.active>a>i,
+.service__sm .icon,
+.features__icon,
+.faq-section .panel-group .panel-heading+.panel-collapse>.panel-body,
+.feature_details i,
+.process_icon i,
+.package_title h1,
+.package_title span,
+.breadcrumb-type-1 .breadcrumb>.active,
+.team_member p a,
+.recognitions ul li a,
+.service_3_icon span,
+.subscribe_form i,
+.image-content-block .text-content a,
+.reply_btn .comment-reply-link,
+.nav_links a {
+    color: #ffc31f;
+}
+/*Dark*/
+.service_cta h3,
+.cta_2 .cta__content h2,
+.cta_2 .cta__content p,
+.bg__blue,
+.btn.btn__lg,
+.btn.btn__sm,
+.btn__xs,
+.pagination a.current,
+.service_3_icon:hover span,
+a.btn:hover,
+.btn_type_3:hover,
+.footer_bottom li:hover a,
+.sidebar_nav ul li a:hover{
+    color: #23262e;
+}
+.btn.btn__black,
+a.btn.btn__sm.btn__black{
+    color: #fff;
+}
+
+/*=================== Bacground CSS ===================*/
+
+.loader__bar,
+.loader__ball,
+.bg__blue,
+.btn.btn__lg,
+.btn.btn__sm,
+.btn__xs,
+.nav-wrapper>ul>li:before,
+.nav-wrapper>ul>li.active>a:before,
+ul.dropdown_menu li:after,
+.search-form form button.search-submit,
+ul.dropdown_menu li:after,
+.hero_slider .slick-dots li,
+.hero_area_3 .vbox-item-1 i,
+.service_cta,
+.cta_3,
+.pricing_table.active .btn_type_3,
+.wpcf7-submit,
+.timeline:before,
+.sidebar_nav ul li:after,
+.cta-type-3 .btn:after,
+.related_service h4,
+.project_type .checkbox.checked,
+.sidebar_nav ul li:after,
+.pagination a.current {
+    background: #ffc31f;
+}
+/*=================== Border CSS ===================*/
+
+.cta-type-3 .btn,
+.heading_title_1 hr,
+.service__body.boxed,
+.faq-section .panel-body,
+.faq-section .panel-group .panel-heading+.panel-collapse>.panel-body,
+.video__content hr,
+.timeline_item:after,
+.Submit_button,
+.avace_core_values_title:after,
+.sidebar_nav ul li:last-child {
+    border-color: #ffc31f;
+}
+/*=================== Box Shadow CSS ===================*/
+/*Hover Color*/
+
+a:hover,
+header.pixinav.dark ul.dropdown_menu li a:hover,
+header.pixinav.dark .nav-wrapper ul li a:hover,
+ul.dropdown_menu li a:hover,
+.nav-wrapper ul li a:hover,
+.footer__widget ul li a:hover,
+.footer_bottom p a:hover,
+.cta-type-1 h6 a:hover,
+.contact__phone a:hover,
+.blog_header>ul>li a:hover,
+.tags li a:hover,
+.tagcloud a:hover,
+.blog_text a:hover h3,
+.blog_text a:hover,
+.blog_widget ul li a:hover,
+.recent_post li a:hover {
+    color: #ff9d1b;
+}
+
+/*=================== Hover BG CSS ===================*/
+.btn.btn__lg:hover,
+.btn.btn__sm:hover,
+.btn__sm.off-white:hover,
+.btn__xs:hover,
+.btn.btn__border:hover,
+.btn.btn__lg.white:hover,
+.footer_bottom li:hover,
+.btn_type_3:hover,
+.service_3_icon:hover,
+.nice-select .option:hover,
+.hero_slider .NextArrow:hover,
+.hero_slider .PrevArrow:hover,
+.post_carousel2 .owl-next:hover,
+.post_carousel2 .owl-prev:hover,
+.comment-respond input[type=submit]:hover,
+.blog_widget input[type='submit']:hover,
+.btn.btn__lg:hover,
+.btn.btn__sm:hover,
+.btn__xs:hover,
+.btn__sm.off-white:hover,
+.btn.btn__lg.white:hover {
+    background: #ff9d1b;
+}
+
+/*Hover border Color*/
+.price_btn .btn_type_3:hover,
+.tagcloud a:hover,
+.btn.btn__border:hover,
+.hero_slider .NextArrow:hover,
+.hero_slider .PrevArrow:hover,
+.cta-type-1 h6 a:hover {
+    border-color: #ff9d1b;
+}
+
+.sl_blog_post.sticky {
+    box-shadow: 0 -10px 0px #ff9d1b;
+}
+
+/*=================== Secondary Color ===================*/
+.pricing_table,
+.bg__dark,
+header.pixinav.dark,
+.cta_2 .btn.btn__lg.white:hover,
+header.pixinav.dark ul.dropdown_menu,
+.nice-select .list,
+.Submit_button,
+.Submit_button input,
+.Submit_button select,
+.sidebar_nav ul,
+.btn.btn__black{
+    background: #021B27;
+}
+footer .bg__dark {
+    background: #141415;
+}
+.footer_2 .subscribe-form-message,
+.footer_2 .subscribe-form,
+.footer_bottom {
+    background: #0C0C0C;
+}
+.overlay:before {
+    background-color: rgba(2, 27, 39, .9);
+}
+.btn.btn__border,
+.stuff_content .btn {
+    border-color: #021B27;
+}
+.cta_2 a.btn.btn__lg.white:hover {
+    box-shadow: inset #021B27 200px 0px 0px;
+    background: none;
+}

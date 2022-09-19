@@ -1,0 +1,273 @@
+/* ============= Main CSS ============ */
+
+.img-fill {
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    position: relative;
+    text-align: center
+}
+
+.img-fill img {
+    display: inline-block;
+    min-height: 100%;
+    max-width: none;
+    position: relative;
+    min-width: 100%;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.Grid1k {
+    padding: 0 15px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.blocks-box,
+.slick-slider {
+    padding: 0!important;
+}
+
+.slick-slide {
+    float: left/* If RTL Make This Right */
+    ;
+}
+
+/* ================= Slider Style ================= */
+
+.slider_section {
+    position: relative;
+}
+.hero_slider .item .img-fill .info {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 100%;
+}
+
+.hero_slider .item .img-fill {
+    height: 70vh;
+    background: #000;
+}
+.hero_area .overlay:before {
+    content: "";
+    background: rgba(0, 0, 0, 0.55);
+}
+
+.hero_area_v1 .slider_content h1 {
+    color: #fff;
+    padding-bottom: 25px;
+    animation: fadeOutUp .9s both;
+}
+.hero_area_v1 .slider_content h4 {
+    color: #ddd;
+    font-weight: 400;
+    padding-bottom: 45px;
+    animation: fadeOutUp .9s both;
+}
+.slider_button .btn__lg {
+    animation: fadeOutLeft .9s both;
+}
+.slider_button .btn__lg.transition_2 {
+    animation: fadeOutDown .9s both;
+}
+.hero_slider .PrevArrow, .hero_slider .NextArrow{
+    transition: all 0.3s ease-out;
+}
+.hero_slider .slick-dots li.slick-active {
+    width: 100%;
+    animation: ProgressDots 1.9s both;
+}
+.hero_slider .NextArrow:before {
+    content: '\f105';
+}
+.hero_slider .NextArrow {
+    right: 60px;
+}
+
+.hero_slider .PrevArrow,
+.hero_slider .NextArrow {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: 2px solid #fcfcfc;
+    border-radius: 100%;
+    color: #fcfcfc;
+    font: 20px/45px FontAwesome;
+    height: 52px;
+    margin-top: -26px;
+    opacity: 0;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    visibility: hidden;
+    width: 52px;
+    z-index: 5;
+}
+
+.hero_slider .PrevArrow {
+    left: 60px;
+}
+
+.hero_slider:hover .PrevArrow,
+.hero_slider:hover .NextArrow {
+    opacity: .8;
+    visibility: visible;
+}
+
+.hero_slider .PrevArrow:before {
+    content: '\f104';
+}
+
+.hero_slider .slick-dots {
+    position: absolute;
+    height: 5px;
+    background: rgba(255, 255, 255, .20);
+    bottom: 0px;
+    width: 100%;
+    left: 0px;
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+}
+
+.hero_slider .slick-dots li button {
+    display: none;
+}
+
+.hero_slider .slick-dots li {
+    float: left;
+    width: 0px;
+    height: 5px;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+
+/*----------caption In transition-------------*/
+
+.hero_slider .item.slick-active h1 {
+    animation: fadeInDown .9s both .9s;
+}
+
+.hero_slider .item.slick-active h4 {
+    animation: fadeInDown .9s both .9s;
+}
+
+.hero_slider .item.slick-active .slider_button a.btn__lg {
+    animation: fadeInLeft .9s both .9s;
+}
+
+.hero_slider .item.slick-active .slider_button a.blue_btn {
+    animation: fadeInRight .9s both .9s;
+}
+
+
+/*----------end caption in transition (2)-------------*/
+
+.hero_slider .item.slick-active .slider_button a.btn__lg.transition_2 {
+    animation: fadeInUp .9s both .9s;
+}
+
+
+/*----------end caption in transition-------------*/
+
+.hero_slider .item.slick-active:nth-child(odd) img {
+    animation: slideInfiZoomIn 20s both;
+}
+
+.hero_slider .item.slick-active:nth-child(even) img {
+    animation: slideInfiZoomOut 20s both;
+}
+
+/* =============== Slick Slider Css Ruls ================ */
+
+.slick-slider {
+    position: relative;
+    display: block;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent
+}
+
+.slick-list {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0
+}
+
+.slick-list:focus {
+    outline: none
+}
+
+.slick-list.dragging {
+    cursor: hand
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0)
+}
+
+.slick-track {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block
+}
+
+.slick-track:before,
+.slick-track:after {
+    display: table;
+    content: ''
+}
+
+.slick-track:after {
+    clear: both
+}
+
+.slick-loading .slick-track {
+    visibility: hidden
+}
+
+.slick-slide {
+    display: none;
+    float: left/* If RTL Make This Right */
+    ;
+    height: 100%;
+    min-height: 1px
+}
+
+.slick-slide.dragging img {
+    pointer-events: none
+}
+
+.slick-initialized .slick-slide {
+    display: block
+}
+
+.slick-loading .slick-slide {
+    visibility: hidden
+}
+
+.slick-vertical .slick-slide {
+    display: block;
+    height: auto;
+    border: 1px solid transparent
+}

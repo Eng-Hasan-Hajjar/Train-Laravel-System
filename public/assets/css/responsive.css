@@ -1,0 +1,664 @@
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    /*======== Home Page- 2 ========*/
+    .expertise_service_content {
+        max-width: 52%;
+        padding-left: 18px;
+        padding-right: 18px;
+        height: 270px;
+    }
+    .expertise_service_img {
+        margin-left: -5px;
+        height: 270px;
+        width: 48%;
+    }
+    .expertise_service_img img {
+        height: 100%;
+    }
+    .img-block .section-content {
+        max-width: 485px;    
+    }    
+    /*======== Our History ========*/
+    .timeline .timeline_item:nth-child(even) {
+        left: 50%;
+        padding-left: 60px;
+    }
+    /*======== Resource Page ========*/
+    .stuff_content .btn {
+        font-size: 12px;
+        width: 150px;
+    }
+    .stuff_content h6 a {
+        font-size: 12px
+    }
+    .subscribe_form .btn_submit {
+        margin-left: -68px;
+    }
+    /*======== Cta ========*/
+    .cta__content h2 {
+        font-size: 28px;
+    }
+    /*======== Service 3 Page ========*/
+    .service_3_content {
+        width: 66%;
+    }
+    /*======== Single Service Page 1 ========*/
+    .sidebar_nav ul li a {
+        font-size: 14px;
+    }
+    .service_content_04 .service_sub_content_03 {
+        padding-right: 60px;
+    }
+    .service_content_04 .service_sub_content_img {
+        width: 49%;
+    }
+    .client_section .row {
+        margin: 0;
+    }
+    /*======== Planner Page ========*/
+    .project_type .wrap {
+        margin-right: 20px;
+    }
+    /*======== Footer ========*/
+    .subscribe-form {
+        padding-left: 10px;
+    }
+}
+
+@media (max-width: 991px) {
+    .header .container {
+        width: 100%;
+    }
+    /*======== Top bar ========*/
+    .top-bar .content{
+        text-align: center;
+        display: inline-block;
+        width: 100%;
+    }
+    
+    /*======== Home Page-1 ========*/
+    .services,
+    .video_section {
+        border-bottom: 1px solid #ddd;
+    }
+    .service.service__lg {
+        margin-bottom: 50px;
+    }
+    .service.service__sm {
+        width: 49.5%;
+        display: inline-block;
+    }
+    .features {
+        display: inline-block;
+        width: 49%;
+    }
+    .blog {
+        margin-bottom: 30px;
+    }
+    .hero_content h2 {
+        font-size: 60px;
+        line-height: 60px;
+    }
+
+    /*======== Home Page-3 ========*/
+    .service_4 ul {
+        background: #fff;
+        display: flex;
+        flex-flow: column;
+    }
+    .service_4 ul li {
+        height: 330px;
+        width: 100%;
+        padding: 40px;
+    }
+    .service_4 ul li:last-child {
+        height: 100%;
+    }
+    .expertise_service_img {
+        float: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    /*======== Home Page-2 ========*/
+    .expertise_service_content {
+        max-width: 100%;
+    }
+    .expertise_service_img,
+    .expertise_service_img img {
+        width: 100%;
+        margin-left: 0;
+    }
+    .client_stories_content h4 a {
+        font-size: 18px;
+    }
+    /*======== Btn ========*/
+    .btn.btn__lg {
+        width: 220px;
+    }
+    /*======== Cta ========*/
+    .cta__content h2 {
+        font-size: 26px;
+    }
+    /*======== Home Page-2 ========*/
+    .img-block .section-content {
+        max-width: 375px;
+    }
+
+    /*======== About Company Page ========*/
+    .about_company_img img:nth-child(1) {
+        padding-bottom: 0;
+        padding-right: 20px;
+    }
+    /*======== Case Studies Page ========*/
+    .project_brief_content h4 {
+        font-size: 16px;
+    }
+    .case_studies_overlay a {
+        font-size: 16px;
+    }
+    /*======== Our History Page ========*/
+    .timeline .timeline_item:nth-child(even) {
+        padding-left: 55px;
+    }
+    .timeline_item:after {
+        width: 80px;
+        height: 80px;
+    }
+    .timeline_item:nth-child(odd):after {
+        transform: translate(50%, 55%);
+    }
+    .timeline .duration {
+        font-size: 16px;
+        transform: translate(50%, 73px);
+    }
+    .timeline_item:nth-child(even):after {
+        transform: translate(-50%, 55%);
+    }
+    .timeline .duration-even {
+        font-size: 16px;
+        transform: translate(-50%, 73px);
+    }
+    /*======== Our Work Page ========*/
+    .portfolio-item a {
+        bottom: 35px;
+        font-size: 16px;
+    }
+    /*======== Resource Page ========*/
+    .more_stuff img {
+        width: 50%;
+    }
+    .subscribe_form input {
+        width: 98%;
+    }
+    /*======== Service 3 Page ========*/
+    .service_3_content {
+        width: 58%;
+    }
+    .service_3_content .btn.btn__sm {
+        width: 120px;
+        height: 45px;
+    }
+    /*======== Single Service Page 1 ========*/
+    .single_service_1_img img:nth-child(1) {
+        padding-bottom: 50px;
+    }
+    .service_content_04 .service_sub_content_03 {
+        padding-right: 60px;
+    }
+    .service_content_04 .service_sub_content_img {
+        width: 48%;
+    }
+    .client_section .row {
+        margin: 0;
+    }
+    /*======== Planner Page ========*/
+    .project_type .wrap {
+        margin-right: 30px;
+    }
+}
+
+@media (max-width: 767px) {
+    /*======== Home Page-2 ========*/
+    .img-block.right {
+        padding-right: 0;
+        margin: 0 auto;
+    }
+    .img-block.left {
+        padding-left: 0;
+        margin: 0 auto;
+    }
+    .img-block .media-content {
+        position: relative;
+        width: 100%;
+        height: 450px;
+    }
+    .img-block .section-content {
+        max-width: 100%;
+    }
+    .img-block.left .section-content, 
+    .img-block.right .section-content {
+        padding-left: 0;
+    }
+    .process_icon i {
+        font-size: 35px;
+        height: 100px;
+        width: 100px;
+        line-height: 100px;
+    }
+    .process_icon:after {
+        margin: 130px 55px 0;
+    }
+    .client_experience_img {
+        width: 49%;
+    }
+    /*======== Career ========*/
+    .benefits .left-content {
+        padding-right: 40px;
+    }
+    /*======== Our History ========*/
+    .timeline .timeline_item {
+        width: 80%;
+        padding-bottom: 40px;
+    }
+    .timeline .timeline_item:last-child {
+        padding-bottom: 0;
+    }
+    .timeline:before {
+        left: 11%;
+    }
+    .timeline_item:nth-child(odd):after {
+        left: 0;
+    }
+    .timeline .timeline_item:nth-child(even) {
+        left: 11%;
+        padding-left: 95px;
+    }
+    .timeline .timeline_item:nth-child(odd) {
+        padding-left: 95px;
+        padding-right: 0;
+        right: -11%;
+    }
+    .timeline_item:nth-child(odd):after {
+        transform: translate(-50%, 80%);
+    }
+    .timeline .duration {
+        left: 0;
+        right: initial;
+        transform: translate(-50%, 113px);
+    }
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+    .slick-arrow {
+        display: none!important;
+    }
+    /*======== Home Page-2 ========*/
+    .expertise_area .grid_2 {
+        margin-top: 50px;
+    }
+    .expertise_service_content {
+        max-width: 52%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .expertise_service_img {
+        width: 48%;
+        margin-left: -5px;
+    }
+    .expertise_service_img img {
+        width: 100%;
+        height: 100%;
+    }
+    .expertise_service_content h4 a {
+        font-size: 15px;
+    }
+    .expertise_service_content,
+    .expertise_service_img {
+        height: 270px;
+    }
+    .quote_area h2 {
+        max-width: 100%;
+    }
+    .client_stories_content img {
+        width: 100%;
+    }
+    /*======== Home 3 Page ========*/
+    .service_content img {
+        width: 100%;
+    }
+    /*======== About Company Page ========*/
+    .about_company_img img:nth-child(1) {
+        padding-bottom: 0;
+        margin-right: 10px;
+    }
+    .about_company_img img {
+        width: 48%;
+    }
+    /*======== Case Studies Page ========*/
+    .project_brief_content h4 {
+        font-size: 16px;
+    }
+    .case_studies_overlay img {
+        width: 100%;
+    }
+    /*======== Our Work Page ========*/
+    .portfolio_video .content {
+        padding: 150px 0;
+    }
+    .portfolio_area .portfolio-item {
+        width: 50%;
+    }
+    .portfolio-item a {
+        bottom: 25px;
+        font-size: 16px;
+        left: 20px;
+    }
+    /*======== Resource Page ========*/
+    .heading_title_1 h2,
+    .heading_title_1 p,
+    .resource_content_1 h3,
+    .stuff_content {
+        width: 100%;
+    }
+    .resource_content_1 h6 a {
+        padding-left: 5px;
+    }
+    .subscribe_form .btn_submit {
+        margin-left: -65px;
+    }
+    /*======== Service 1 Page ========*/
+    .content_block_1 h2 {
+        font-size: 20px;
+    }
+    /*======== Single Service Page 1 ========*/
+    .service_sub_content_03 {
+        float: left;
+    }
+    .single_service_1_img {
+        width: 70%;
+    }
+    .service_content_04 .service_sub_content_03 {
+        width: 45%;
+        padding-right: 0;
+    }
+    .service_content_04 .service_sub_content_img {
+        width: 100%;
+        margin-left: 0px;
+    }
+    .service_content_04 .service_sub_content_img img {
+        width: 100%;
+    }
+    .client_section .row {
+        margin: 0;
+    }
+    /*======== Planner Page ========*/
+    .project_type .wrap {
+        display: inherit;
+    }
+    /*======== Contact 3 Page ========*/
+    #map_contact_4 #google_map {
+        height: 300px;
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 479px) {
+
+    .top-bar .content, .top-bar ul li a{
+        font-size: 12px;
+    }
+    .top-bar ul li{
+        border: 0;
+    }
+    .slick-arrow {
+        display: none!important;
+    }
+    .single_canvas.offcanvas1.open {
+        width: 100%;
+    }
+    /*======== Home Page-1 ========*/
+    .hero_slider .item .img-fill {
+        height: 100vh;
+    }
+    .features {
+        display: inline-block;
+        width: 100%;
+        padding-left: 0;
+    }
+    .service__sm{
+        padding-left: 0;
+    }
+    .service.service__sm {
+        width: 100%;
+    }
+    .quote h1 {
+        font-size: 28px;
+        line-height: 38px;
+    }
+    .featured__on .featured__brand_logo {
+        flex-flow: column;
+    }
+    .featured__brand_logo {
+        padding-bottom: 50px;
+    }
+    .featured__on .featured__brand_logo img {
+        margin-bottom: 50px;
+    }
+    .featured__on .featured__brand_logo img:last-child {
+        margin-bottom: 0;
+    }
+    .blog img {
+        width: 100%;
+    }
+    /*======== Home Page-3 ========*/
+    .hero-3 .container__mid {
+        height: 580px;
+    }
+    .service_content img {
+        width: 100%;
+    }
+    .expertise_area .grid_2 {
+        margin-top: 50px;
+    }
+    .expertise_service_content {
+        max-width: 100%;
+    }
+    .expertise_service_img img {
+        width: 100%;
+    }
+    .expertise_service_img {
+        margin-left: 0;
+        width: 100%;
+        float: none;
+    }
+    .expertise_service_content p>a>i {
+        padding-left: 0;
+    }
+    .quote_area h2 {
+        font-size: 26px;
+        max-width: 100%;
+    }
+    #google_map {
+        height: 300px;
+    }
+    /*======== Home Page-2 ========*/
+
+    .hero_content h2 {
+        font-size: 40px;
+        line-height:40px;
+    }
+    .img-block .media-content {
+        height: 250px;
+    }
+    /*======== Btn ========*/
+    .btn.btn__lg {
+        width: 220px;
+        height: 50px;
+        line-height: 50px;
+    }
+    /*======== About Company Page ========*/
+    .about_company_img img {
+        width: 100%;
+    }
+    .about_company_awards img {
+        padding-left: 0;
+    }
+    .about_company_awards h4 {
+        font-size: 18px;
+    }
+    /*======== Our History ========*/
+    .timeline:before {
+        left: 12.3%;
+    }
+    .timeline_item:nth-child(odd):after {
+        transform: translate(-40%, 70%);
+    }
+    .timeline_item:nth-child(even):after {
+        transform: translate(-40%, 80%);
+    }
+    .timeline_item:after {
+        width: 70px;
+        height: 70px;
+    }
+    .timeline .duration{
+        right: initial;
+        transform: translate(-30%, 73px);
+    }
+    .timeline .duration-even {
+        transform: translate(-30%, 80px);
+    }
+    .timeline .timeline_item:nth-child(even), .timeline .timeline_item:nth-child(odd) {
+        padding-left: 65px;
+    }
+    /*======== Career Page ========*/
+    .benefits .content {
+        flex-direction: column;
+    }
+    .benefits .left-content {
+        padding-right: 0;
+        padding-bottom: 30px;
+}
+    /*======== Case Studies Page ========*/
+    .project_brief_content h4 {
+        font-size: 16px;
+    }
+    .case_studies_overlay a {
+        font-size: 16px;
+    }
+    .case_studies img {
+        width: 100%;
+    }
+    /*======== Our Work Page ========*/
+    .portfolio_video .content {
+        padding: 50px 0;
+    }
+    .portfolio_video .content h2 {
+        font-size: 25px;
+    }
+    .portfolio_video .content h6 {
+        font-size: 15px;
+    }
+    /*======== Resource Page ========*/
+    .heading_title_1 h2,
+    .heading_title_1 p,
+    .resource_content_1 h3,
+    .stuff_content {
+        width: 100%;
+    }
+    .resource_area .btn {
+        margin-bottom: 10px;
+    }
+    .resource_content_1 h6 a {
+        padding-left: 0px;
+    }
+    .stuff_content .btn {
+        height: 45px;
+        font-size: 12px;
+        width: 150px;
+        padding: 2px;
+        line-height: 45px;
+    }
+    .stuff_content h6 a {
+        font-size: 12px;
+        padding-left: 5px;
+    }
+    .subscribe_form input {
+        font-size: 13px;
+        width: 95%;
+    }
+    .subscribe_form .btn_submit {
+        margin-left: -65px;
+    }
+    /*======== Portfolio Page ========*/
+    .portfolio_area .portfolio-item {
+        width: 100%;
+    }
+    /*======== Service 1 Page ========*/
+    .content_block_1 h2 {
+        font-size: 22px;
+        padding: 0 6px;
+    }
+    /*======== Service 2 Page ========*/
+    .service_2 .service_content img {
+        width: 100%;
+    }
+    /*======== Service 3 Page ========*/
+
+    .sidebar_nav ul li a {
+        padding: 15px;
+        font-size: 15px;
+    }
+    .service_content_03 h2 {
+        font-size: 24px;
+    }
+    .service_content_04 .service_sub_content_03 {
+        width: 95%;
+        padding-right: 15px;
+    }
+    .service_content_04 .service_sub_content_img {
+        width: 100%;
+        margin-left: 0;
+    }
+    /*======== Service 3 Page ========*/
+    .service_3_content .btn.btn__sm {
+        height: 45px;
+        font-size: 11px;
+        line-height: 45px;
+    }
+    /*======== Single Service Page 1 ========*/
+    .client_section .row {
+        margin: 0;
+    }
+    /*======== Resource Page ========*/
+    /*======== Application Form Page ========*/
+    .form_bg {
+        padding: 60px 0;
+        width: 100%;
+    }
+    /*======== Contact 1 Page ========*/
+    .contact_address,
+    .contact__phone {
+        width: 100%;
+    }
+    .contact__info p {
+        margin-top: 90px;
+    }
+    .contact_page_2 .contact__info {
+        padding-top: 0;
+    }
+    .contact__info  {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    /*======== Contact 2 Page ========*/
+    .contact_title h1 {
+        font-size: 40px;
+    }
+    .contact_title hr {
+        width: 150px;
+    }
+    /*======== Contact 3 Page ========*/
+    #map_contact_4 #google_map {
+        height: 300px;
+    }
+}
